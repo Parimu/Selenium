@@ -15,6 +15,7 @@ public class Calendar {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.path2usa.com/travel-companion/");
 		Thread.sleep(5000);
+		Thread.sleep(5000);
 		
 	}
 
