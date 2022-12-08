@@ -21,6 +21,7 @@ public class Screenshots {
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("C:\\Users\\44787\\eclipse-workspace\\GitSample\\Screenshots\\Matalan.png"));
+		System.out.println("Taken screenshot");
 		
 		driver.close();
 
